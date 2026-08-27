@@ -17,4 +17,5 @@ console.log("Cidades ordenadas: ", cidades);
 const numeros = [10, 2, 30 , 5];
 //Se usarmos apenas numeros.sort()
 //O JS converte para texto e ordena como string ("10", "2", "30", "5"), dando
-numeros.sort
+numeros.sort((a, b) => a - b);
+console.log("numeros ordenados corretamente:", numeros);
